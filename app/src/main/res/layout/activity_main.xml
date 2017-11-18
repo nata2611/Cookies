@@ -25,12 +25,30 @@
         android:textColor="@android:color/white"
         android:textSize="34sp" />
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
     <Button
         android:id="@+id/eat_cookie_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="EAT COOKIE"
-        android:onClick="eatCookie"/>
+        android:onClick="eatCookie"
+        />
+
+    <Button
+        android:id="@+id/be_hungry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Be hungry"
+        android:visibility="gone"
+        android:onClick="beHungry"
+        />
+    </RelativeLayout>
+
+
 
 </LinearLayout>
